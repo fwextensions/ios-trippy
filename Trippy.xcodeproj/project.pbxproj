@@ -13,6 +13,7 @@
 		E3CBC8251A71DE45009BEA2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CBC8241A71DE45009BEA2E /* Images.xcassets */; };
 		E3CBC8281A71DE45009BEA2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CBC8261A71DE45009BEA2E /* LaunchScreen.xib */; };
 		E3CBC8341A71DE46009BEA2E /* TrippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CBC8331A71DE46009BEA2E /* TrippyTests.swift */; };
+		E3CBC83E1A776BE4009BEA2E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CBC83D1A776BE4009BEA2E /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E3CBC82D1A71DE46009BEA2E /* TrippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CBC8321A71DE46009BEA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3CBC8331A71DE46009BEA2E /* TrippyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrippyTests.swift; sourceTree = "<group>"; };
+		E3CBC83D1A776BE4009BEA2E /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E3CBC81D1A71DE45009BEA2E /* AppDelegate.swift */,
 				E3CBC81F1A71DE45009BEA2E /* ViewController.swift */,
 				E3CBC8211A71DE45009BEA2E /* Main.storyboard */,
+				E3CBC83D1A776BE4009BEA2E /* DetailsViewController.swift */,
 				E3CBC8241A71DE45009BEA2E /* Images.xcassets */,
 				E3CBC8261A71DE45009BEA2E /* LaunchScreen.xib */,
 				E3CBC81B1A71DE45009BEA2E /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				E3CBC8201A71DE45009BEA2E /* ViewController.swift in Sources */,
 				E3CBC81E1A71DE45009BEA2E /* AppDelegate.swift in Sources */,
+				E3CBC83E1A776BE4009BEA2E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				E3CBC8391A71DE46009BEA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3CBC83A1A71DE46009BEA2E /* Build configuration list for PBXNativeTarget "TrippyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				E3CBC83C1A71DE46009BEA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
