@@ -33,7 +33,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="soo-rP-cZC" kind="push" id="5XA-yQ-qOD"/>
+                                    <segue destination="soo-rP-cZC" kind="modal" id="mIx-8r-KxM"/>
                                 </connections>
                             </button>
                         </subviews>
